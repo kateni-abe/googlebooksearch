@@ -1,0 +1,70 @@
+body {
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  height: 95vh;
+}
+
+#search {
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+#search_inner {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#searchInput {
+  font-size: 16px;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  border-radius: 3px;
+  width: 40%;
+  height: 30px;
+  border: 1px solid rgb(199, 199, 199);
+  margin: 20px 0 20px 0;
+}
+
+#searchInput:hover {
+  border: 1px solid rgb(149, 149, 149);
+}
+
+#searchButton {
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+  background-image: linear-gradient(to bottom, #728cff, #3c52fa);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+#searchButton img {
+  width: 15px;
+  vertical-align: middle;
+  margin: auto;
+}
+
+#google_books_logo {
+  text-align: center;
+}
+
+#google_books_logo img {
+  width: 350px;
+}

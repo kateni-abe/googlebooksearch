@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booksarch</title>
+    <!-- cssの読み込み -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/results.css" />
+  </head>
+  <body>
+    <main class="outer">
+      <div class="inner">
+        <header>
+          <div id="google_books_logo">
+            <a href="bookssearch.html"><img src="img/Google_Books_logo.png" alt="" /></a>
+          </div>
+        </header>
+        <!-- 検索エリア -->
+        <div id="search">
+          <div id="search_inner">
+            <input type="text" id="searchInput" placeholder="検索ワードを入力" />
+            <div id="searchButtonpad">
+              <button id="searchButton"><img src="img/search.svg" alt="" /></button>
+            </div>
+          </div>
+          <div id="searchResults"></div>
+        </div>
+        <!-- 検索エリア終了 -->
+
+        <!-- 検索結果 -->
+        <ul id="results"></ul>
+        <!-- 検索結果終了 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="js/results.js"></script>
+      </div>
+    </main>
+  </body>
+</html>

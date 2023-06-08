@@ -1,0 +1,81 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  height: 95vh;
+}
+
+#searchResults {
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 24%);
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+#results img {
+  height: 100%;
+}
+
+.results_img_outer {
+  height: 50%;
+  text-align: center;
+}
+
+.results_title {
+  height: 8%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.results_title a {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 94, 0);
+}
+
+.results_caption {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 10px;
+}
+
+.results_caption p {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6; /*行数*/
+}
+
+.results_publisher {
+  margin-bottom: 10px;
+}
+
+.outer {
+  padding-top: 50px;
+}
+
+li {
+  padding: 20px;
+  height: 50vh;
+  border: 1px solid rgb(237, 237, 237);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+#nothing {
+  background-color: black;
+}

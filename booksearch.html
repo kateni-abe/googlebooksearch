@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Books search</title>
+    <!-- cssの読み込み -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/top.css" />
+    <!-- font awesome読み込み -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  </head>
+  <body>
+    <main class="outer">
+      <div class="inner">
+        <!-- google books ロゴ  -->
+        <div id="google_books_logo"><img src="img/Google_Books_logo.png" alt="" /></div>
+        <!-- google books ロゴ終了  -->
+
+        <!-- 検索エリア -->
+        <div id="search">
+          <div id="search_inner">
+            <input type="text" id="searchInput" placeholder="検索ワードを入力" />
+            <div id="searchButtonpad">
+              <button id="searchButton"><img src="img/search.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+        <!-- 検索エリア終了 -->
+        <!-- 検索下のキャプション -->
+        <p id="books_search_description">書籍の全文が登録された世界最大級の包括的なインデックスを検索できます。</p>
+        <!-- 検索下のキャプション終了 -->
+      </div>
+    </main>
+
+    <!-- font awesome読み込み -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <!-- jquery,jsファイルの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/top.js"></script>
+  </body>
+</html>
